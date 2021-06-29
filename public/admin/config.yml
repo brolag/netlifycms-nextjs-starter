@@ -1,6 +1,9 @@
 backend:
-  name: git-gateway
+  name: github
   branch: main # Branch to update (optional; defaults to master)
+  repo: brolag/netlifycms-nextjs-starter # Path to your Github/Gitlab repository
+  base_url: https://netlifycms-nextjs-starter.vercel.app/
+
 media_folder: public/img
 public_folder: img
 collections:
